@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light-Saas :-By Bhuwan Thapa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="navContainer z-[999] md:sticky md:backdrop-blur-sm md:top-0">
+        <div class="md:hidden 2xl:hidden">
+        <div class="topSection">
+            <h1>Get Start For Free</h1>
+            <svg  viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.0306 10.5306L11.5306 15.0306C11.3897 15.1715 11.1986 15.2507 10.9994 15.2507C10.8001 15.2507 10.609 15.1715 10.4681 15.0306C10.3272 14.8897 10.2481 14.6986 10.2481 14.4994C10.2481 14.3001 10.3272 14.109 10.4681 13.9681L13.6875 10.75H4.5C4.30109 10.75 4.11032 10.671 3.96967 10.5303C3.82902 10.3897 3.75 10.1989 3.75 9.99999C3.75 9.80108 3.82902 9.61031 3.96967 9.46966C4.11032 9.329 4.30109 9.24999 4.5 9.24999H13.6875L10.4694 6.02999C10.3285 5.88909 10.2493 5.69799 10.2493 5.49874C10.2493 5.29948 10.3285 5.10838 10.4694 4.96749C10.6103 4.82659 10.8014 4.74744 11.0006 4.74744C11.1999 4.74744 11.391 4.82659 11.5319 4.96749L16.0319 9.46749C16.1018 9.53726 16.1573 9.62016 16.1951 9.71142C16.2329 9.80269 16.2523 9.90052 16.2522 9.99931C16.252 10.0981 16.2324 10.1959 16.1944 10.2871C16.1564 10.3782 16.1007 10.461 16.0306 10.5306Z" fill="currentColor"/>
+            </svg>
+        </div>
+        <div class="bottomSection">
+            <div class="logo"><img src="./assets/logosaas.png" alt=""></div>
+            <div class="menu"><img src="./assets/menu.svg" alt=""></div>
+        </div>
+        <hr class="line">
+        </div>
+        <div class="hidden md:sticky md:top-0 md:block 2xl:block">
+            <div class="flex justify-center gap-[2vh] items-center bg-black">
+                <h3 class="text-white tracking-tight opacity-35">Stramine your workflow and boost your productivity</h3>
+                <h1 class="text-white tracking-tight">Get Start For Free</h1>
+                <svg class="h-[5vh] text-white font-lighter" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.0306 10.5306L11.5306 15.0306C11.3897 15.1715 11.1986 15.2507 10.9994 15.2507C10.8001 15.2507 10.609 15.1715 10.4681 15.0306C10.3272 14.8897 10.2481 14.6986 10.2481 14.4994C10.2481 14.3001 10.3272 14.109 10.4681 13.9681L13.6875 10.75H4.5C4.30109 10.75 4.11032 10.671 3.96967 10.5303C3.82902 10.3897 3.75 10.1989 3.75 9.99999C3.75 9.80108 3.82902 9.61031 3.96967 9.46966C4.11032 9.329 4.30109 9.24999 4.5 9.24999H13.6875L10.4694 6.02999C10.3285 5.88909 10.2493 5.69799 10.2493 5.49874C10.2493 5.29948 10.3285 5.10838 10.4694 4.96749C10.6103 4.82659 10.8014 4.74744 11.0006 4.74744C11.1999 4.74744 11.391 4.82659 11.5319 4.96749L16.0319 9.46749C16.1018 9.53726 16.1573 9.62016 16.1951 9.71142C16.2329 9.80269 16.2523 9.90052 16.2522 9.99931C16.252 10.0981 16.2324 10.1959 16.1944 10.2871C16.1564 10.3782 16.1007 10.461 16.0306 10.5306Z" fill="currentColor"/>
+            </svg>
+            </div>
+            <div class="flex justify-between sticky top-0  px-[5vh] py-[3vh] text-center items-center">
+                <div class="logo">
+                    <img class="h-[7vh]" src="./assets/logosaas.png" alt="logo-saas">
+                </div>
+                <div class="menuItems flex xl:gap-[6vh] gap-[4vh] items-center">
+                    <a href="#" class="menuIem font-semibold text-[2.4vh] text-zinc-600 hover:text-zinc-400 hover:underline">About</a>
+                    <a href="#" class="menuIem font-semibold text-[2.4vh] text-zinc-600 hover:text-zinc-400 hover:underline">Features</a>
+                    <a href="#" class="menuIem font-semibold text-[2.4vh] text-zinc-600 hover:text-zinc-400 hover:underline">Customers</a>
+                    <a href="#" class="menuIem font-semibold text-[2.4vh] text-zinc-600 hover:text-zinc-400 hover:underline">Upadates</a>
+                    <a href="#" class="menuIem font-semibold text-[2.4vh] text-zinc-600 hover:text-zinc-400 hover:underline">Help</a>
+                    <button id="btn" class="btn font-semibold bg-black text-white p-[2vh] rounded-2xl z-1"><a href="#" class="relative z-10">Get for free</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>  
+    <div class="hero md:flex">
+        <div class="slide md:px-[3vh] md:py-[4vh]">
+            <div class="information md:flex md:flex-col md:gap-[2vh]">
+                <h4 class="md:font-semibold md:border-2 md:w-[200px] cursor-pointer md:rounded-2xl md:p-[2vh]">Version 2.0 is here</h4>
+                <div class="tittle">
+                    <h1 class="text-blue-600 md:font-bold md:text-[13vh] md:leading-[14vh]">Pathway to</h1>
+                    <h1 class="text-black md:font-bold md:text-[13vh]    md:leading-[14vh]">productivity</h1>
+                </div>
+                <p class=" xl:w-[100vh] md:p-[1vh] md:font-semibold md:w-[60vh] md:text-blue-900 md:text-[3.5vh]">Celebrate the joy of  accomplishment with an app designed to track your progress motivate your efforts,and celevrate your successes.</p>
+                <div class="buttons md:flex md:gap-[3vh]">
+                    <button class="btn get md:bg-zinc-800 md:px-[5vh] md:h-[60px] md:text-white md:text-[20px] md:rounded-2xl"><a href="#" class="relative z-10">Get for free</a></button>
+                    <button class="btn border-none flex text-center items-center justify-center px-[4vh] hover:border-white z-1 learn md:flex md:items-center md:gap-[1.5vh]"><span class=" relative z-10 md:font-semibold md:text-[26px]">Learn More</span><svg class="md:h-[4vh] relative z-10" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.0306 10.5306L11.5306 15.0306C11.3897 15.1715 11.1986 15.2507 10.9994 15.2507C10.8001 15.2507 10.609 15.1715 10.4681 15.0306C10.3272 14.8897 10.2481 14.6986 10.2481 14.4994C10.2481 14.3001 10.3272 14.109 10.4681 13.9681L13.6875 10.75H4.5C4.30109 10.75 4.11032 10.671 3.96967 10.5303C3.82902 10.3897 3.75 10.1989 3.75 9.99999C3.75 9.80108 3.82902 9.61031 3.96967 9.46966C4.11032 9.329 4.30109 9.24999 4.5 9.24999H13.6875L10.4694 6.02999C10.3285 5.88909 10.2493 5.69799 10.2493 5.49874C10.2493 5.29948 10.3285 5.10838 10.4694 4.96749C10.6103 4.82659 10.8014 4.74744 11.0006 4.74744C11.1999 4.74744 11.391 4.82659 11.5319 4.96749L16.0319 9.46749C16.1018 9.53726 16.1573 9.62016 16.1951 9.71142C16.2329 9.80269 16.2523 9.90052 16.2522 9.99931C16.252 10.0981 16.2324 10.1959 16.1944 10.2871C16.1564 10.3782 16.1007 10.461 16.0306 10.5306Z" fill="currentColor"/>
+                    </svg> </button>
+                </div>
+            </div>
+        </div>
+        <div>
+         <img class="md:absolute md:left-[68vh] xl:left-[108vh] md:w-[80vw] xl:h-[80vh] xl:w-[50vw] md:h-[80vh]" id="cog" src="./assets/cog.png" alt="cog">
+        </div>
+        <div class="hidden md:block">
+            <img class="md:absolute xl:right-[100vh] md:h-[30vh] md:top-[10vh] right-[20vh]" src="./assets/cylinder.png" id="cylinder" alt="">
+        </div>
+        <div class="hidden xl:block">
+           <img class="xl:absolute h-[30vh] top-[85vh] right-[1vh] rotate-[45deg]" src="./assets/noodle.png" id="noodle" alt="">
+        </div>
+
+    </div>
+    <div class="scrollSection flex xl:h-[20vh] md:h-[18vh] h-[10vh] w-full bg-white text-center justify-center mt-[10vh] items-center">
+        <div class="scrollerWrapper flex h-full w-full justify-center items-center gap-[5vh]">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+            <img src="assets/logo-acme.png" alt="">
+            <img src="assets/logo-apex.png" alt="">
+            <img src="assets/logo-celestial.png" alt="">
+            <img src="assets/logo-echo.png" alt="">
+            <img src="assets/logo-pulse.png" alt="">
+            <img src="assets/logo-quantum.png" alt="">
+        </div>
+    </div>  
+   <div class="aboutSection bg-white w-full flex flex-col justify-center items-center text-center gap-[3vh]">
+      <h4 class="border-2 border-zinc-200 xl:text-[3vh] p-[2vh] rounded-xl font-semibold mt-[2vh]" >Boost your productivity</h4>
+      <h1 class="font-bold text-[4vh] xl:text-[6vh] ">A more effective way to track progress</h1>
+      <p class="font-semibold text-[2vh] px-[2vh] md:text-[3vh] xl:text-[3vh]">Effortlessly turn Your ideas into a fully functional,responsive,SaaS website in just minutes with this template.</p>
+      <div class="imges relative">
+        <img src="./assets/product-image.png" alt="">
+        <img class="pyramid absolute xl:h-[50vh] h-[30vh] -right-[5vh] -top-[10vh] " src="./assets/pyramid.png" alt="">
+        <img class="tube absolute xl:h-[50vh] h-[30vh] -left-[10vh] xl:top-[60vh] top-[10vh] md:top-[30vh] " src="./assets/tube.png" alt="">
+      </div>
+   </div>
+   <div class="pricingSection bg-white gap-[2vh] px-[1vh]  flex flex-col justify-center text-center items-center">
+     <h1 class="text-bold text-[4vh] mt-[5vh]">Pricing</h1>
+      <h4 class="text-semobold text-[2.5vh]">Free forever.Upgrade for unlinited tasks,better security,and exclusice feaatures.</h4>
+       <div class="cardsSection flex flex-col xl:flex-row xl:flex-wrap mt-[5vh] xl:gap-[8vh] md:gap-[6vh] md:flex-row md:flex-wrap gap-[5vh] bg-white">
+        <div class="cardItems scaleImage rounded-2xl shadow-2xl p-[2vh] h-[60vh] flex flex-col text-left items-left justify-left">
+            <h2 class="text-[3vh] text-zinc-300 mt-[2vh]">Free</h2>
+            <h1 class="font-bold text-zinc-900 text-[3vh]">$0 <span class="font-medium text-zinc-500 text-[2vh]">/month</span></h1>
+            <button class="bg-black p-[1vh] rounded-2xl text-white text-semibold mt-[2vh]">Get Start for free</button>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Upto to 5 project members</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Unlimited tasks and projects</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>2GB storage</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Integrations</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Basic support</h4></span>
+        </div>
+        
+        <div class="cardItems scaleImage rounded-2xl shadow-2xl bg-zinc-800 text-white p-[2vh] h-[70vh] flex flex-col text-left items-left justify-left">
+            <h2 class="text-[3vh] text-white mt-[2vh]">Pro</h2>
+            <h1 class="font-bold text-white text-[3vh]">$9 <span class="font-medium text-zinc-500 text-[2vh]">/month</span></h1>
+            <button class="bg-black p-[1vh] rounded-2xl text-zinc-800 bg-white text-semibold mt-[2vh]">Sign up now</button>
+            <span class="flex gap-[2vh] text-white mt-[2vh]"><img class="h-[3vh] " src="./assets/check.svg" alt=""><h4>Upto to 5 project members</h4></span>
+            <span class="flex gap-[2vh] text-white mt-[2vh]"><img class="h-[3vh] " src="./assets/check.svg" alt=""><h4>Unlimited tasks and projects</h4></span>
+            <span class="flex gap-[2vh] text-white mt-[2vh]"><img class="h-[3vh] " src="./assets/check.svg" alt=""><h4>50GB storage</h4></span>
+            <span class="flex gap-[2vh] text-white mt-[2vh]"><img class="h-[3vh] " src="./assets/check.svg" alt=""><h4>Integrations</h4></span>
+            <span class="flex gap-[2vh] text-white mt-[2vh]"><img class="h-[3vh] " src="./assets/check.svg" alt=""><h4>Basic support</h4></span>
+            <span class="flex gap-[2vh] text-white mt-[2vh]"><img class="h-[3vh] " src="./assets/check.svg" alt=""><h4>Advanced support</h4></span>
+            <span class="flex gap-[2vh] text-white mt-[2vh]"><img class="h-[3vh] " src="./assets/check.svg" alt=""><h4>Expert support</h4></span>
+        </div>
+        <div class="cardItems scaleImage  rounded-2xl mb-[5vh] shadow-2xl p-[2vh] h-[80vh] flex flex-col text-left items-left justify-left">
+            <h2 class="text-[3vh] text-zinc-300 mt-[2vh]">Business</h2>
+            <h1 class="font-bold text-zinc-900 text-[3vh]">$19 <span class="font-medium text-zinc-500 text-[2vh]">/month</span></h1>
+            <button class="bg-black p-[1vh] rounded-2xl text-white text-semibold mt-[2vh]">Sign up now</button>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Upto to 5 project members</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Unlimited tasks and projects</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>200GB storage</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Integrations</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Basic support</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Dedicated account manager</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Custom fields</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Advanced analysis</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Access API</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Expert capabities</h4></span>
+            <span class="flex gap-[2vh] mt-[2vh]"><img class="h-[3vh]" src="./assets/check.svg" alt=""> <h4>Advanced security</h4></span>
+        </div>
+       </div>
+    </div>
+    <div class="testimonialSection flex justify-center text-center items-center flex-col p-[2vh] bg-white">
+        <h3 class="font-semibold text-[3vh] xl:text-[4vh]">Testimonials</h3>
+        <h1 class="font-bold mt-[2vh] text-[4vh] xl:text-[5vh]">What our users say</h1>
+        <p class="font-medium mt-[2vh] text-[2.5vh] xl:text-[3vh]">From intuitive design to powerful features,our app has become an essential tool for users around the world.</p>
+        <div class="usersSuggation flex xl:mx-[8vh] md:mt-[5vh] flex-col gap-[5vh]  md:flex-row md:flex-wrap md:px-[5vh]">
+            <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-1.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                </div> 
+             </div>
+             <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-2.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                </div> 
+             </div>
+             <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-3.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                </div> 
+             </div>
+             <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-4.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                </div> 
+             </div>
+             <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-5.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                </div> 
+             </div>
+             <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-6.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                </div> 
+             </div>
+             <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-7.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                </div> 
+             </div>
+             <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-8.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                </div> 
+             </div>
+             <div class="usersWrapper scaleImage h-[35vh] shadow-2xl w-[400px] rounded-2xl p-[4vh] flex flex-col">
+                <p class="font-medium text-[2.5vh]">Our team's priductivity has skyrockered since we started using this tool</p>
+                 <div class="flex gap-[2vh] mt-[3vh] items-center text-center justify-center">
+                    <img src="./assets/avatar-9.png" alt="">
+                     <div>
+                        <h2>Josh Smith</h2>
+                        <h2>@jjsmith</h2>
+                    </div>
+                    </div> 
+               </div>
+        </div>
+    </div>
+    <div class="sigupSection relative bg-white p-[30vh] gap-[3vh] flex flex-col p-[6vh] text-center items-center justify-center">
+        <h1 class="font-bold text-blue-700 text-[4vh] md:text-[5vh] xl:text-[6vh] mt-[10vh]">Sign up for free today</h1>
+        <p class="font-medium text-[2.5] md:text-[3vh] xl:text-[3.5vh]">Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.</p>
+        <div class="buttons flex gap-[2vh] ">
+            <img class="star absolute h-[20vh] top-[10vh] left-0" src="./assets/star.png" alt="">
+            <button class="get btn  bg-black p-[2vh] text-white rounded-2xl z-1"><a href="#" class="relative z-10">Get for free</a></button>
+            <button class="learn btn border-none p-[2vh] z-1 flex w-[25vh] text-center items-center "><a href="#" class="w-[15vh] text-[2.5vh] relative z-10">Learn more</a><svg class="h-[4vh] relative z-10"  viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path  d="M16.0306 10.5306L11.5306 15.0306C11.3897 15.1715 11.1986 15.2507 10.9994 15.2507C10.8001 15.2507 10.609 15.1715 10.4681 15.0306C10.3272 14.8897 10.2481 14.6986 10.2481 14.4994C10.2481 14.3001 10.3272 14.109 10.4681 13.9681L13.6875 10.75H4.5C4.30109 10.75 4.11032 10.671 3.96967 10.5303C3.82902 10.3897 3.75 10.1989 3.75 9.99999C3.75 9.80108 3.82902 9.61031 3.96967 9.46966C4.11032 9.329 4.30109 9.24999 4.5 9.24999H13.6875L10.4694 6.02999C10.3285 5.88909 10.2493 5.69799 10.2493 5.49874C10.2493 5.29948 10.3285 5.10838 10.4694 4.96749C10.6103 4.82659 10.8014 4.74744 11.0006 4.74744C11.1999 4.74744 11.391 4.82659 11.5319 4.96749L16.0319 9.46749C16.1018 9.53726 16.1573 9.62016 16.1951 9.71142C16.2329 9.80269 16.2523 9.90052 16.2522 9.99931C16.252 10.0981 16.2324 10.1959 16.1944 10.2871C16.1564 10.3782 16.1007 10.461 16.0306 10.5306Z" fill="currentColor"/>
+                </svg>
+                </button>
+               <img class="spring absolute h-[30vh] top-[20vh] right-0" src="./assets/spring.png" alt=""> 
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

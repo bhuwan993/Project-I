@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow-x:hidden ;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(white 15%,blue);
+}
+@media screen and (max-width:780px){
+    
+    
+    .navContainer{
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        top: 0;
+        width: 100vw;
+        height: 17vh;
+    }
+    .navContainer .topSection{
+        cursor: pointer;
+        display: flex;
+        height: 7vh;
+        gap: 1vh;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: black;
+    }
+    .navContainer .topSection h1{
+        color: white;
+        font-size: 15px;
+    }
+    .navContainer .topSection svg{
+        height: 20px;
+        color: white;
+    }
+    .navContainer .bottomSection{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        position: sticky;
+        backdrop-filter: blur(5px);
+        top: 0;
+        position: -webkit-sticky;
+        
+    }
+    .navContainer .bottomSection .logo img{
+        height: 30px;
+    }
+    .navContainer .bottomSection .menu img{
+        cursor: pointer;
+        height: 30px;
+    }
+    .navContainer .line{
+        border: 3px solid rgb(114, 226, 230);
+    }
+    .hero{
+        height: 150vh;
+        width: 100vw;
+        /* background: linear-gradient(white 15%,blue); */
+        overflow-x: hidden;
+        padding: 4vh;
+        
+        
+    }
+    .hero .information {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .hero .information h4{
+        color: black;
+        font-weight: 500;
+        cursor: pointer;
+        /* border: 2px solid red; */
+        width: fit-content;
+        border: 0.2px solid rgba(0, 0, 0, 0.12);
+        padding: 0.2vh 0.3vh;
+    }
+    .hero .information .tittle h1{
+        font-size: 8vh;
+        line-height: 10vh;
+        font-weight: 700;
+    }
+    .hero .information p{
+        font-size: 25px;
+        display: flex;
+        width: fit-content;
+    }
+    .hero .information .buttons{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 2vh;
+    }
+    .hero .information .buttons .get{
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 15px;
+        background: black;
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+        cursor: pointer;
+    }
+    .hero .information .buttons .learn{
+        display: flex;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        font-size: 20px;
+        gap: 1vh;
+    }
+    .scaleImage:hover{
+        transform: scale(1.2);
+        transition: all linear 0.6s;
+        cursor: pointer;
+
+    }
+    .hero .information .buttons .learn svg{
+        height: 25px;
+    }
+    .btn{
+        position:relative;
+        overflow: hidden;
+        border: 2px solid black;
+        /* z-index:999 */
+        /* color: blue; */
+    }
+    .btn::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        bottom:-100%;
+        border-radius: 15px;
+        right: 0;
+        transition: all linear 0.6s;
+        /* z-index: 2; */
+    } 
+    .btn:hover::after{
+        bottom: 0;
+        /* z-index: 2; */
+        transition: all linear 0.6s;
+    }
+    .btn:hover a{
+        color: black;
+        z-index: 99;
+        position: relative;
+        /* background-color: white; */
+    }
+}
+@media (min-width:780px) and (max-width:1000px) {
+    .btn{
+        position:relative;
+        overflow: hidden;
+        border: 2px solid black;
+        /* z-index:999 */
+        /* color: blue; */
+    }
+    .btn::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        bottom:-100%;
+        border-radius: 15px;
+        right: 0;
+        transition: all linear 0.6s;
+        /* z-index: 2; */
+    } 
+    .btn:hover::after{
+        bottom: 0;
+        /* z-index: 2; */
+        transition: all linear 0.6s;
+    }
+    .btn:hover a{
+        color: black;
+        z-index: 99;
+        position: relative;
+        /* background-color: white; */
+    }
+    .scaleImage:hover{
+        transform: scale(1.2);
+        transition: all linear 0.6s;
+        cursor: pointer;
+
+    }
+}
+@media (min-width:1000px) and (max-width:1600px){
+    .navContainer{
+        position: sticky;
+        top: 0;
+        backdrop-filter: blur(13px);
+    }
+    .btn{
+        position:relative;
+        overflow: hidden;
+        border: 2px solid black;
+        /* z-index:999 */
+        /* color: blue; */
+    }
+    .btn::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        bottom:-100%;
+        border-radius: 15px;
+        right: 0;
+        transition: all linear 0.6s;
+        /* z-index: 2; */
+    } 
+    .btn:hover::after{
+        bottom: 0;
+        /* z-index: 2; */
+        transition: all linear 0.6s;
+    }
+    .btn:hover a{
+        color: black;
+        z-index: 99;
+        position: relative;
+        /* background-color: white; */
+    }
+    .hero .slide{
+        display: flex;
+        gap: 20vh;
+    }
+    .hero .information h1{
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .scaleImage:hover{
+        transform: scale(1.2);
+        transition: all linear 0.6s;
+        cursor: pointer;
+
+    }
+}
